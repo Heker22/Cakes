@@ -1,0 +1,96 @@
+:root {
+    --background-color: #0e0e0e;
+    --text-color: #fff;
+    --footer-background-color: #313131;
+    --hover-color: rgb(194, 28, 84);
+}
+
+.container {
+    width: 1341px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Source Serif Pro", serif;
+    color: var(--text-color);
+}
+
+.header {
+    padding-top: 33px;
+    padding-bottom: 15px;
+    background-color: var(--background-color);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    font-weight: 100;
+    font-size: 32px;
+    letter-spacing: -0.02em;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link-list:hover,
+.nav-link-list:focus {
+    color: var(--hover-color);
+}
+
+.nav-list {
+    display: flex;
+    gap: 41px;
+}
+
+.nav-link-list {
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.hero-wrap {
+    padding-top: 319px;
+    padding-bottom: 250px;
+    background-image: linear-gradient(141deg, rgba(0, 0, 0, 0.64) 0%, rgba(0, 0, 0, 0.64) 29.89%, rgba(0, 0, 0, 0.64) 53.96%, rgba(0, 0, 0, 0.64) 83.07%, rgba(0, 0, 0, 0.64) 92.85%, rgba(0, 0, 0, 0.64) 100%);
+    width: 50%;
+}
+
+.hero {
+    background-image: url(../img/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-title {
+    font-weight: 100;
+    font-size: 85px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Homemade Apple", cursive;
+    text-align: right;
+    margin-right: 82px;
+}
+
+.hero-line {
+    width: 90%;
+    height: 1px;
+    background-color: var(--text-color);
+    margin-top: 30px;
+    margin-bottom: 129px;
+}
