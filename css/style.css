@@ -94,3 +94,22 @@ body {
     margin-top: 30px;
     margin-bottom: 129px;
 }
+
+.hero-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    font-weight: 200;
+    font-size: 25px;
+    letter-spacing: -0.02em;
+    background-color: transparent;
+    color: var(--text-color);
+    border-color: var(--text-color);
+    text-transform: uppercase;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+    border-color: var(--hover-color);
+    color: var(--hover-color);
+}
