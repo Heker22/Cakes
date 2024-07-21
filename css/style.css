@@ -107,6 +107,7 @@ body {
     color: var(--text-color);
     border-color: var(--text-color);
     text-transform: uppercase;
+    cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus{
